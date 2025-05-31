@@ -40,7 +40,7 @@ public class QHomingBow extends JavaPlugin implements Listener {
 
         if (target != null) {
             homingArrows.put(arrow, target.getUniqueId());
-            arrow.setMetadata("HomingArrow", new FixedMetadataValue(this, true)); // <<< Только здесь!
+            arrow.setMetadata("HomingArrow", new FixedMetadataValue(this, true));
             player.playSound(playerLoc, Sound.ENTITY_BLAZE_SHOOT, 1f, 1.5f);
         }
     }
