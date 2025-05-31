@@ -1,0 +1,5 @@
+name: qHomingBow
+version: '1.0'
+main: org.quorix.qHomingBow.QHomingBow
+api-version: '1.21'
+authors: [ Quorix ]
